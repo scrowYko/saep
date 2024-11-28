@@ -1,0 +1,33 @@
+.header {
+    background-color: #0056b3;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.title {
+    margin: 0; /* Remove o margin padrão do h1 */
+}
+
+.nav-list {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove o margin padrão */
+    display: flex; /* Exibe os itens da lista em linha */
+}
+
+.nav-item {
+    margin-left: 20px; /* Espaço entre os itens do nav */
+}
+
+.nav-link {
+    color: #FFFFFF; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.nav-link:hover {
+    text-decoration: underline; /* Adiciona um sublinhado ao passar o mouse */
+}
